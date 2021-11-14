@@ -1,0 +1,27 @@
+.welcome_container {
+  /* width: 600px; */
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  /* background: rgba(255, 255, 255, 0.7); */
+  border-radius: 5px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.wel_img {
+  z-index: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wel_img img {
+  width: 100%;
+}
+
+.wel-text {
+  position: absolute;
+  font-size: 60px;
+  top: 20%;
+  left: 10%;
+}

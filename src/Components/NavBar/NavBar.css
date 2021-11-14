@@ -1,0 +1,77 @@
+.navbar {
+  background: rgba(255, 255, 255, 0.7);
+  color: white;
+  font-size: large;
+  display: grid;
+  grid-template-areas: "icon . nav";
+  grid-template-columns: auto 1fr auto;
+  box-shadow: 1px 1px 3px rgba(100, 100, 100, 0.8);
+  border-radius: 0 0 2px 2px;
+  margin: 0 0 10px 0;
+}
+
+.nav-icon {
+  grid-area: icon;
+  margin: 5px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.nav-items {
+  grid-area: nav;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items li {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items li a {
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  background: rgba(233, 246, 255, 0.2);
+  color: linear-gradient(45deg, rgb(41, 149, 211), rgb(167, 223, 36));
+  text-decoration: none;
+  font-size: 16px;
+  z-index: 0;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.nav-items li a::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2px;
+  border-radius: 6px;
+  background: linear-gradient(45deg, rgb(41, 149, 211), rgb(167, 223, 36));
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: destination-out;
+  mask-composite: exclude;
+}
+
+.nav-items li a h5 {
+  background: linear-gradient(
+    to top right,
+    rgb(41, 149, 211),
+    rgb(167, 223, 36)
+  );
+  background-clip: text;
+  color: transparent;
+  padding: 5px;
+  margin: 0;
+}
+
+.nav-items li a:hover {
+  background: rgba(233, 246, 255, 0.8);
+}

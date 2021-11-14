@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  background: linear-gradient(45deg, rgb(41, 149, 211), rgb(167, 223, 36));
+  background-size: 120%;
+  background-attachment: fixed;
+  min-height: 100vh;
+}

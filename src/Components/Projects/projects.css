@@ -1,0 +1,12 @@
+.projects_container {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  width: 600px;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  height: 200px;
+}
