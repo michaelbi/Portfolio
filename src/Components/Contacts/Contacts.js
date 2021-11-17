@@ -28,6 +28,7 @@ function Contact() {
         </div>
       </IconContext.Provider>
       <form
+        action="/"
         method="POST"
         netlify
         name="contact"
