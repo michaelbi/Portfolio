@@ -21,7 +21,8 @@
   border-style: none;
 }
 
-.s-input[type="email"] {
+.s-input[type="email"],
+.name {
   height: 40px;
 }
 

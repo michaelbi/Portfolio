@@ -39,6 +39,13 @@ function Contact() {
         // }}
       >
         <input
+          name="name"
+          className="s-input name"
+          type="text"
+          placeholder="name"
+          required
+        />
+        <input
           name="email"
           className="s-input"
           type="email"
