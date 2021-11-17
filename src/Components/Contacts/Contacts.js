@@ -28,10 +28,10 @@ function Contact() {
         </div>
       </IconContext.Provider>
       <form
-        action="/thanks"
+        name="contact"
+        // action="/thanks"
         method="POST"
         data-netlify="true"
-        name="contact"
         className="contact-form"
         autoComplete="off"
         // onSubmit={(event) => {
@@ -51,8 +51,8 @@ function Contact() {
           placeholder="contact message"
           required
         />
-        <input type="hidden" name="contact" value="contactForm" />
-        <input type="submit" />
+        {/* <input type="hidden" name="contact" value="contactForm" /> */}
+        <input name="sub" type="submit" />
       </form>
     </Container>
   );
