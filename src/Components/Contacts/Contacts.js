@@ -31,7 +31,7 @@ function Contact() {
         name="contact"
         // action="/thanks"
         method="POST"
-        data-netlify="true"
+        // data-netlify="true"
         className="contact-form"
         autoComplete="off"
         // onSubmit={(event) => {
