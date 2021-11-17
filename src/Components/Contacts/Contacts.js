@@ -29,6 +29,7 @@ function Contact() {
       </IconContext.Provider>
       <form
         netlify
+        name="contact"
         className="contact-form"
         autoComplete="off"
         // onSubmit={(event) => {
