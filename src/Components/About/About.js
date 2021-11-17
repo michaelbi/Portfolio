@@ -6,8 +6,8 @@ import Michael from "../../images/Michael.jpg";
 
 export default function About() {
   return (
-    <Container>
-      <div className="about-card" id="about">
+    <Container divId="about">
+      <div className="about-card">
         <div className="about-bar">
           <img src={Michael} alt="" />
           <h1>Michael Bitan</h1>

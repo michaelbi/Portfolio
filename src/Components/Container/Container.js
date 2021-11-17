@@ -1,9 +1,9 @@
 import React from "react";
 import "./container.css";
 
-const Container = ({ children }) => {
+const Container = ({ children, divId }) => {
   return (
-    <div className="outter_container">
+    <div className="outter_container" id={divId}>
       <div className="container">{children}</div>
     </div>
   );

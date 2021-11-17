@@ -2,11 +2,30 @@
   display: flex;
   flex-flow: column nowrap;
   margin: auto;
-  width: 600px;
+  /* width: 600px; */
 }
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   column-gap: 10px;
-  height: 200px;
+  row-gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.psvg {
+  width: 40%;
+  margin-left: 50%;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
