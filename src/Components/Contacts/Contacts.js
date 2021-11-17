@@ -39,15 +39,15 @@ function Contact() {
         // }}
       >
         <input
-          className="s-input"
           name="email"
+          className="s-input"
           type="email"
           placeholder="email"
           required
         />
         <textarea
-          className="s-input"
           name="message"
+          className="s-input"
           placeholder="contact message"
           required
         />
