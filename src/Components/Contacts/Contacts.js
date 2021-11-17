@@ -39,7 +39,7 @@ function Contact() {
         // }}
       >
         <input
-          name="email"
+          name="name"
           className="s-input"
           type="email"
           placeholder="email"
