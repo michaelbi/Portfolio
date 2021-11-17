@@ -35,7 +35,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-input[type="submit"] {
+button {
   padding: 0.7rem 7rem;
   width: fit-content;
   margin: 0 auto;
@@ -48,11 +48,11 @@ input[type="submit"] {
   color: rgb(41, 149, 211);
 }
 
-input[type="submit"]:hover {
+button:hover {
   background: rgb(167, 223, 105);
 }
 
-input[type="submit"]:active {
+button:active {
   background: rgb(167, 200, 10);
 }
 

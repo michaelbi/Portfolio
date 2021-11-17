@@ -52,7 +52,7 @@ function Contact() {
           required
         />
         {/* <input type="hidden" name="contact" value="contactForm" /> */}
-        <input name="sub" type="submit" />
+        <button name="sub" type="submit" />
       </form>
     </Container>
   );
