@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Container from "../Container/Container";
 import AboutIco from "../../svg/about.svg";
-import Michael from "../../images/Michael.jpg";
+import Michael from "../../images/Michael.png";
 
 export default function About() {
   return (
