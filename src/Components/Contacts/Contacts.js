@@ -28,9 +28,9 @@ function Contact() {
         </div>
       </IconContext.Provider>
       <form
-        action="/index.html"
+        action="/thanks.html"
         method="POST"
-        netlify
+        data-netlify="true"
         name="contact"
         className="contact-form"
         autoComplete="off"
