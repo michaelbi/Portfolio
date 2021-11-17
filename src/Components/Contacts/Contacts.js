@@ -51,7 +51,7 @@ function Contact() {
           placeholder="contact message"
           required
         />
-        <input type="hidden" name="form-name" value="contactForm" />
+        <input type="hidden" name="contact" value="contactForm" />
         <input type="submit" />
       </form>
     </Container>
