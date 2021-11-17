@@ -29,7 +29,7 @@ function Contact() {
       </IconContext.Provider>
       <form
         method="POST"
-        data-netlify="true"
+        netlify
         name="contact"
         className="contact-form"
         autoComplete="off"
