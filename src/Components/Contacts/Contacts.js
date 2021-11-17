@@ -32,9 +32,9 @@ function Contact() {
         data-netlify="true"
         className="contact-form"
         autoComplete="off"
-        onSubmit={(event) => {
-          event.preventDefault();
-        }}
+        // onSubmit={(event) => {
+        //   event.preventDefault();
+        // }}
       >
         <input
           className="s-input"
